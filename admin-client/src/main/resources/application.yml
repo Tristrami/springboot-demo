@@ -1,0 +1,18 @@
+
+# 打开监控端点
+management:
+  endpoint:
+    health:
+      show-details: always
+  # 打开所有端点
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# 配置监控 server 端的地址
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000

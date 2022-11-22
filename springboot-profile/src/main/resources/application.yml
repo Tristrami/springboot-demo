@@ -1,0 +1,5 @@
+# 多环境的配置方式是，分别为 dev test prod 三个环境创建配置文件，文件命名格式为（以 dev 为例）
+# application-dev.yml，然后再创建 application.yml，配置 spring.profiles.active 属性
+spring:
+  profiles:
+    active: dev

@@ -1,0 +1,4 @@
+org.springframework.context.ApplicationContextInitializer=\
+com.seamew.springbootlistener.listener.MyApplicationContextInitializer
+org.springframework.boot.SpringApplicationRunListener=\
+com.seamew.springbootlistener.listener.MySpringApplicationRunListener

@@ -1,0 +1,30 @@
+server:
+  port: 8081
+
+person:
+  name: ltr
+  age: 21
+  address:
+    - Ningbo
+    - Guiyang
+
+msg1: "Hello \n world" # 支持识别转义字符
+msg2: 'Hello \n world' # 不支持识别转义字符
+
+# 打开监控端点
+management:
+  endpoint:
+    health:
+      show-details: always
+  # 打开所有端点
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+
+# 配置监控 server 端的地址
+spring:
+  boot:
+    admin:
+      client:
+        url: http://localhost:9000
