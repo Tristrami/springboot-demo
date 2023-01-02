@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.seamew</groupId>
-    <artifactId>learn-springboot</artifactId>
+    <artifactId>springboot-demo</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>learn-springboot</name>
+    <name>springboot-demo</name>
     <packaging>pom</packaging>
     <description>Demo project for Spring Boot</description>
 
